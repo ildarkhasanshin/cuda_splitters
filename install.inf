@@ -1,0 +1,35 @@
+[info]
+title=Splitters
+desc=Temporary increase/decrease position of panel-splitters.
+type=cudatext-plugin
+subdir=cuda_splitters
+
+[item10]
+section=events
+events=on_start
+
+[item11]
+section=commands
+caption=Splitters\Config
+method=open_config
+menu=o
+
+[item20]
+section=commands
+caption=Splitters\Increase/decrease bottom-panel
+method=toggle_b
+
+[item21]
+section=commands
+caption=Splitters\Increase/decrease side-panel
+method=toggle_s
+
+[item22]
+section=commands
+caption=Splitters\-
+method=_
+
+[item23]
+section=commands
+caption=Splitters\Save current panel positions
+method=save_curr_pos
